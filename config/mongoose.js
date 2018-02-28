@@ -1,5 +1,5 @@
 //mongoose config
-console.log('THis file is called')
+console.log('This file is called')
 var config = require('./config'),
     mongoose = require('mongoose');
     
@@ -11,5 +11,5 @@ mongoose.connect(config.db_uri, {
     console.log('connected to DB success')
 })
 .catch(() => {
-    console.log('failed to connect to dataabase');
+    console.log('failed to connect to database');
 });
