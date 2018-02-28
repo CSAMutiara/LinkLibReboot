@@ -26,6 +26,8 @@ error(app);
 app.listen(process.env.PORT, process.env.IP);
 console.log('You are listening to port 3000');
 
+module.exports = app;
+
 // sudo apt-get install -y mongodb-org
 // mongod --bind_ip=$IP --nojournal
 
